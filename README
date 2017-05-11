@@ -1,0 +1,54 @@
+##########################
+##  GENERER UNE PHRASE  ##
+##########################
+
+Script :
+
+./sentence_generator.py <chemin vers le corpus> <chaine de début> [ -n <nombre de n-grammes> ]
+
+Exemples :
+
+./sentence_generator.py corpora/got.txt "Je vous"
+=> Je vous remercie de nous juger avec clémence d'accepter notre faiblesse humaine
+
+./sentence_generator.py corpora/hollande.txt "La France"
+=> La france agit pour se rendre en méditerranée orientale.
+
+###############################
+##  GENERER DES SOUS-TITRES  ##
+###############################
+
+Générer un nouveau fichier de sous-titres :
+
+./srt_generator.py <chemin vers le corpus> <chemin vers le fichier de sous-titres> [ -n <nombre de n-grammes> -s <"chaine de départ"> ]
+
+Exemples :
+
+./srt_generator.py corpora/bible.txt demo/tbbt902subs.srt -n 2 -s "Je suis"
+
+./srt_generator.py corpora/gims.txt demo/tbbt902subs.srt -n 3
+
+./srt_generator.py corpora/got.txt demo/tbbt902subs.srt
+
+le fichier généré porte le même nom que le fichier de départ, mais suffixé du nom du corpus.
+
+Exemple :
+
+tbbt902subs.bible.srt
+
+Une fois le fichier généré, il suffit de faire un drag & drop sur la fenêtre de la vidéo ouvert avec VLD pour qu'il soit pris en compte.
+
+############
+##  MISC  ##
+############
+
+Les vidéos et sous-titres originaux sont dans le dossier "demo"
+
+Les corpus :
+
+corpora/bible.txt		texte de la bible
+corpora/brassens.txt	paroles de Brassens
+corpora/gims.txt		paroles de Maître Gims
+corpora/got.txt			sous-titres de Game of Thrones
+corpora/hollande.txt	discours de François Hollande
+corpora/sw.txt			sous-titre de Star Wars The Clone Warscorpora/
