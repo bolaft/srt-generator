@@ -46,9 +46,9 @@ Les vidéos et sous-titres originaux sont dans le dossier "demo"
 
 Les corpus :
 
-corpora/bible.txt		texte de la bible
+corpora/bible.txt		  texte de la bible
 corpora/brassens.txt	paroles de Brassens
-corpora/gims.txt		paroles de Maître Gims
-corpora/got.txt			sous-titres de Game of Thrones
+corpora/gims.txt		  paroles de Maître Gims
+corpora/got.txt			  sous-titres de Game of Thrones
 corpora/hollande.txt	discours de François Hollande
-corpora/sw.txt			sous-titre de Star Wars The Clone Warscorpora/
+corpora/sw.txt			  sous-titres de Star Wars The Clone Wars
